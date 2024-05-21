@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#game {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+
+}
+#controls {
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+#text {
+    font-size: 30px;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+    border-collapse: 0px;
+}
+
+td {
+    width: inherit;
+    height: inherit;
+    padding: 30px;
+        
+}
+table:hover {
+    cursor: pointer;
+}
+
+.firstRow, .secondRow, .thirdRow {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.thirdRow {
+    border-bottom: 0px;
+}
+
+.firstRow:last-child, 
+.secondRow:last-child, 
+.thirdRow:last-child {
+    border-right: 0;
+}
